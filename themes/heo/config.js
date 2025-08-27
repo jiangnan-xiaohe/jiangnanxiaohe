@@ -20,8 +20,8 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '坦诚相见',
   HEO_HERO_TITLE_2: '见字亦如面',
-  HEO_HERO_TITLE_3: '高山流水遇知音/灵魂共鸣',
-  HEO_HERO_TITLE_4: '初心不改-赋能同行',
+  HEO_HERO_TITLE_3: '高山流水遇知音.灵魂共鸣',
+  HEO_HERO_TITLE_4: '初心不改',
   HEO_HERO_TITLE_5: '江南小和的朋友圈',
   HEO_HERO_TITLE_LINK: '',
   // 英雄区遮罩文字
