@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "version": "",
+  "name": "notion-next",
+  "version": "4.9.0",
   "homepage": "https://github.com/tangly1024/NotionNext.git",
   "license": "MIT",
   "engines": {
@@ -12,8 +12,8 @@
   },
   "author": {
     "name": "tangly",
-    "email": "mail@tangly1024.com",
-    "url": "http://tangly1024.com"
+    "email": "",
+    "url": ""
   },
   "scripts": {
     "dev": "next dev",
@@ -106,6 +106,6 @@
   },
   "bugs": {
     "url": "https://github.com/tangly/NotionNext/issues",
-    "email": "tlyong1992@hotmail.com"
+    "email": ""
   }
 }
