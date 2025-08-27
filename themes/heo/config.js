@@ -4,12 +4,12 @@ const CONFIG = {
 
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2021-06-01', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '欢迎来到我的博客', url: '' },
+    { title: '访问文档中心获取更多帮助', url: '' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,14 +18,14 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_1: '坦诚相见',
+  HEO_HERO_TITLE_2: '见字亦如面',
+  HEO_HERO_TITLE_3: '高山流水遇知音/灵魂共鸣',
+  HEO_HERO_TITLE_4: '初心不改-赋能同行',
+  HEO_HERO_TITLE_5: '江南小和的朋友圈',
+  HEO_HERO_TITLE_LINK: '',
   // 英雄区遮罩文字
-  HEO_HERO_COVER_TITLE: '随便逛逛',
+  HEO_HERO_COVER_TITLE: '与时间作朋友',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -40,21 +40,32 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
     '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '🚀 DTC品牌出海实战派',
+    '🛒 资深独立站优化师',
+    '🌍 深耕跨境电商五年+',
+    '📊 Facebook广告优化师 & 数据分析师',
+    '🚀 致力于产品的价值增长',
+    '📚 用碎片化时间丈量世界',
+    '💰 致力于提升广告ROAS',
+    '🤝 很高兴能与你在此相遇',
+    '💻 搞定独立站从0到1全链路',
+    '🎯 精研Facebook广告精准投放',
+    '✍️ 热衷打磨高转化广告素材',
+    '💡 分享一线投手踩坑经验',
+    '💬 期待与你探讨流量玩法',
+    '🧠 广告策略与用户心理研究者',
+    '🛠️ 打造可复制的增长模型',
+    '✨ 分享让品牌发光的营销思考',
+    '🙏 寻求志同道合的品牌伙伴',
   ],
 
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
+  HEO_INFO_CARD_URL2: 'https://jiangnanxiaohe.com',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
-  HEO_INFO_CARD_TEXT3: '了解更多',
+  HEO_INFO_CARD_URL3: 'https://jiangnanxiaohe.com',
+  HEO_INFO_CARD_TEXT3: '利他之心',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -117,10 +128,10 @@ const CONFIG = {
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  HEO_SOCIAL_CARD_TITLE_1: '人脉的本质',
+  HEO_SOCIAL_CARD_TITLE_2: '弱连接的力量',
+  HEO_SOCIAL_CARD_TITLE_3: '点击信任的桥梁',
+  HEO_SOCIAL_CARD_URL: 'https://jiangnanxiaohe.com',
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
