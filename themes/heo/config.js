@@ -76,7 +76,7 @@ const CONFIG = {
     {
       title_1: 'github',
       img_1: '/images/heo/github.png',
-      color_1: '#989bf8',
+      color_1: '#ffffff',
       title_2: 'linkedin',
       img_2: '/images/heo/linkedin.png',
       color_2: '#ffffff'
@@ -85,10 +85,10 @@ const CONFIG = {
     {
       title_1: 'google',
       img_1: '/images/heo/google.png',
-      color_1: '#57b6e6',
+      color_1: '#ffffff',
       title_2: 'pinterest',
       img_2: '/images/heo/pinterest.png',
-      color_2: '#4082c3'
+      color_2: '#ffffff'
     },
     {
       title_1: 'facebook',
@@ -98,37 +98,37 @@ const CONFIG = {
       img_2: '/images/heo/whatsapp.png',
       color_2: '#ffffff'
     },
+    {
+      title_1: 'reddit',
+      img_1: '/images/heo/reddit.png',
+      color_1: '#ffffff',
+      title_2: 'shopify',
+      img_2: '/images/heo/shopify.png',
+      color_2: '#ffffff'
+    },
+    {
+      title_1: 'amazon',
+      img_1: '/images/heo/amazon.png',
+      color_1: '#ffffff',
+      title_2: 'messenger',
+      img_2: '/images/heo/messenger.png',
+      color_2: '#ffffff'
+    },
+    {
+      title_1: 'producthunt',
+      img_1: '/images/heo/producthunt.png',
+      color_1: '#ffffff',
+      title_2: 'twitter',
+      img_2: '/images/heo/twitter.png',
+      color_2: '#ffffff'
+    },
     // {
-    //   title_1: 'Swift',
-    //   img_1: '/images/heo/202328bbee0b314297917b327df4a704db5c072402.webp',
-    //   color_1: '#eb6840',
-    //   title_2: 'Principle',
-    //   img_2: '/images/heo/2023f76570d2770c8e84801f7e107cd911b5073202.webp',
-    //   color_2: '#8f55ba'
-    // },
-    // {
-    //   title_1: 'illustrator',
-    //   img_1: '/images/heo/20237359d71b45ab77829cee5972e36f8c30073902.webp',
-    //   color_1: '#f29e39',
-    //   title_2: 'CSS3',
-    //   img_2: '/images/heo/20237c548846044a20dad68a13c0f0e1502f074602.webp',
-    //   color_2: '#2c51db'
-    // },
-    // {
-    //   title_1: 'JS',
-    //   img_1: '/images/heo/2023786e7fc488f453d5fb2be760c96185c0075502.webp',
-    //   color_1: '#f7cb4f',
-    //   title_2: 'HTML',
-    //   img_2: '/images/heo/202372b4d760fd8a497d442140c295655426070302.webp',
-    //   color_2: '#e9572b'
-    // },
-    // {
-    //   title_1: 'Git',
-    //   img_1: '/images/heo/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.webp',
-    //   color_1: '#df5b40',
-    //   title_2: 'Rhino',
-    //   img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
-    //   color_2: '#1f1f1f'
+    //   title_1: 'youtube',
+    //   img_1: '/images/heo/youtube.png',
+    //   color_1: '#ffffff',
+    //   title_2: 'wordpress',
+    //   img_2: '/images/heo/wordpress.png',
+    //   color_2: '#ffffff'
     // }
   ],
 
