@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 [] 
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: '' },
-    { title: '访问文档中心获取更多帮助', url: '' }
+    { title: '提供“简单、粗暴、易落地”的心得', url: '' },
+    { title: '当对手还在烧广告时，你已经赢在了起跑线', url: '' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -21,7 +21,7 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '坦诚相见',
   HEO_HERO_TITLE_2: '见字亦如面',
   HEO_HERO_TITLE_3: '高山流水遇知音~灵魂共鸣',
-  HEO_HERO_TITLE_4: '初心不改',
+  HEO_HERO_TITLE_4: '忘掉你听说的那些，这才是独立站的正确玩法',
   HEO_HERO_TITLE_5: '江南小和的朋友圈',
   HEO_HERO_TITLE_LINK: '',
   // 英雄区遮罩文字
