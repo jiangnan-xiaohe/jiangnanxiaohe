@@ -15,7 +15,7 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '广告策略与用户心理研究者', 
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://jiangnanxiaohe.com', 
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '独立站, FB广告投放', 
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico.png', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || '', // 备案查询链接，如果用了萌备等备案请在这里填写
 
