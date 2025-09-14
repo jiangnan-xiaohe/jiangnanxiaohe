@@ -28,8 +28,8 @@ const CONFIG = {
   HEO_HERO_COVER_TITLE: '不做平台|只做品牌',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '' },
+  HEO_HERO_CATEGORY_1: { title: '必看精选', url: 'https://jiangnanxiaohe.com/article/should-i-start-standalone-site-2025' },
+  HEO_HERO_CATEGORY_2: { title: '热门文章', url: 'https://jiangnanxiaohe.com/article/cross-border-ecommerce-hard-truth' },
   HEO_HERO_CATEGORY_3: { title: '实用教程', url: '' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
