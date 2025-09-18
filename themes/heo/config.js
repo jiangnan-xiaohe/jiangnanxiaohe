@@ -10,6 +10,7 @@ const CONFIG = {
   HEO_NOTICE_BAR: [
     { title: '《2025独立站冷启动避坑指南》', url: '' },
     { title: '提供“简单、粗暴、易落地”的心得', url: '' }
+    { title: 'Facebook广告秒懂“帖子ID', url: 'https://jiangnanxiaohe.com/article/how-to-find-facebook-post-id' }
   ],
 
   // 英雄区左右侧组件颠倒位置
