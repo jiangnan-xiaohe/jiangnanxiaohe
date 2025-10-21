@@ -17,9 +17,9 @@ const BLOG = {
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://jiangnanxiaohe.com', 
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '独立站, FB广告投放', 
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico.png',  
-  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
-  BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
-  BEI_AN_GONGAN: process.env.NEXT_PUBLIC_BEI_AN_GONGAN || '', // 公安备案号，例如 '浙公网安备3xxxxxxxx8号'
+  // BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
+  // BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
+  // BEI_AN_GONGAN: process.env.NEXT_PUBLIC_BEI_AN_GONGAN || '', // 公安备案号，例如 '浙公网安备3xxxxxxxx8号'
 
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
@@ -46,7 +46,7 @@ const BLOG = {
   ...require('./conf/dev.config'), // 开发、调试时需要关注的配置
 
   // 自定义外部脚本，外部样式
-  CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
+  CUSTOM_EXTERNAL_JS: ['https://cdn.jsdmirror.cn/npm/pace-js@latest/pace.min.js','https://cdn.jsdmirror.cn/npm/instant.page@5.2.0/instantpage.min.js'], 
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
 
   // 自定义菜单
