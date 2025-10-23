@@ -21,11 +21,11 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '坦诚相见',
   HEO_HERO_TITLE_2: '见字亦如面',
   HEO_HERO_TITLE_3: '高山流水遇知音~灵魂共鸣',
-  HEO_HERO_TITLE_4: '忘掉你听说的那些，这才是独立站的正确玩法',
-  HEO_HERO_TITLE_5: '江南小和的朋友圈',
+  HEO_HERO_TITLE_4: '我愿景建立一个由顶尖的产品人、投手、设计师、内容创作者组成的社群生态',   //'忘掉你听说的那些，这才是独立站的正确玩法'
+  HEO_HERO_TITLE_5: '江南小和的跨境圈',
   HEO_HERO_TITLE_LINK: '',
   // 英雄区遮罩文字
-  HEO_HERO_COVER_TITLE: '不做平台|只做品牌',
+  HEO_HERO_COVER_TITLE: '一个无形的创客空间',  //'不做平台|只做品牌'
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: 'https://jiangnanxiaohe.com/article/should-i-start-standalone-site-2025' },
