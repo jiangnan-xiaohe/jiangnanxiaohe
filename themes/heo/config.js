@@ -145,7 +145,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: '人脉的本质',
   HEO_SOCIAL_CARD_TITLE_2: '弱连接的力量|点击信任的桥梁',
   HEO_SOCIAL_CARD_TITLE_3: '加入我的出海交流圈',
-  HEO_SOCIAL_CARD_URL: 'https://jiangnanxiaohe.com',
+  HEO_SOCIAL_CARD_URL: '/public/images/wechat.JPG',
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
