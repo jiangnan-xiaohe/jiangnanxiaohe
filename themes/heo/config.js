@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 [] 
   HEO_NOTICE_BAR: [
-    { title: '《2025独立站冷启动避坑指南》', url: '' },
-    { title: 'Facebook广告秒懂“帖子ID', url: 'https://jiangnanxiaohe.com/article/how-to-find-facebook-post-id' }
+    { title: '《2025独立站冷启动避坑指南》', url: 'https://jiangnanxiaohe.com/article/should-i-start-standalone-site-2025' },
+    { title: 'FB广告的8个实战问答', url: 'https://jiangnanxiaohe.com/article/facebook-ads-8-beginner-mistakes' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -30,7 +30,7 @@ const CONFIG = {
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: 'https://jiangnanxiaohe.com/article/should-i-start-standalone-site-2025' },
   HEO_HERO_CATEGORY_2: { title: '热门文章', url: 'https://jiangnanxiaohe.com/article/cross-border-ecommerce-hard-truth' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '' },
+  HEO_HERO_CATEGORY_3: { title: '实用教程', url: 'https://jiangnanxiaohe.com/article/facebook-ads-8-beginner-mistakes' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
