@@ -111,8 +111,7 @@ const SocialButton = () => {
               <div className='absolute bottom-12 left-1/2 -translate-x-1/2 z-40'>
                 <div className='w-36 rounded-xl bg-white dark:bg-neutral-800 shadow-2xl ring-1 ring-black/5 flex flex-col items-center px-3 py-2'>
                   <img
-                    src='/images/gongzhonghao.jpg'
-                    alt='抖音二维码'
+                    src='/images/douyin.JPG''                    alt='抖音二维码'
                     className='block w-28 h-28 object-contain'
                     draggable={false}
                   />
