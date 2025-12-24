@@ -66,7 +66,7 @@ const SocialButton = () => {
                     draggable={false}
                   />
                   <div className='mt-1 text-[11px] leading-none text-gray-600 dark:text-gray-300 whitespace-nowrap'>
-                    扫码关注公众号
+                    关注我的公众号
                   </div>
                 </div>
               </div>
@@ -172,7 +172,7 @@ const SocialButton = () => {
                     draggable={false}
                   />
                   <div className='mt-1 text-[11px] leading-none text-gray-600 dark:text-gray-300 whitespace-nowrap'>
-                    扫码关注小红书
+                    关注我的小红书
                   </div>
                 </div>
               </div>
@@ -225,7 +225,7 @@ const SocialButton = () => {
                     draggable={false}
                   />
                   <div className='mt-1 text-[11px] leading-none text-gray-600 dark:text-gray-300 whitespace-nowrap'>
-                    扫码关注抖音
+                    关注我的抖音
                   </div>
                 </div>
               </div>
