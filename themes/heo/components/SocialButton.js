@@ -38,6 +38,10 @@ const SocialButton = () => {
               style={{ width: '1em', height: '1em', verticalAlign: '-0.125em' }}
             />
           </a>
+
+
+
+  
           <div
             className='relative inline-flex'
             onPointerEnter={(e) => {
@@ -74,7 +78,10 @@ const SocialButton = () => {
             )}
           </div>
 
-//{/* 👇👇👇 抖音代码开始 👇👇👇 */}
+
+
+
+            
           <div
             className='relative inline-flex'
             onPointerEnter={(e) => {
@@ -103,7 +110,6 @@ const SocialButton = () => {
             {showDouyinQR && (
               <div className='absolute bottom-12 left-1/2 -translate-x-1/2 z-40'>
                 <div className='w-36 rounded-xl bg-white dark:bg-neutral-800 shadow-2xl ring-1 ring-black/5 flex flex-col items-center px-3 py-2'>
-                 // {/* 👇 请确保你的 public/images/ 目录下有 douyin.jpg 这个二维码图片 */}
                   <img
                     src='/images/gongzhonghao.jpg'
                     alt='抖音二维码'
