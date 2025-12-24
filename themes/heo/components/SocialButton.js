@@ -21,6 +21,7 @@ const SocialButton = () => {
   const [showWechatQR, setShowWechatQR] = useState(false)
   const [showDouyinQR, setShowDouyinQR] = useState(false) 
   const [showXHSQR, setShowXHSQR] = useState(false)
+  const [showFacebookQR, setShowFacebookQR] = useState(false)
   
   const emailIcon = useRef(null)
 
@@ -73,6 +74,64 @@ const SocialButton = () => {
           </div>
 
 
+
+
+
+          <div
+            className='relative inline-flex'
+            onPointerEnter={(e) => {
+              if (e.pointerType === 'mouse') setShowFacebookQR(true)
+            }}
+            onPointerLeave={(e) => {
+              if (e.pointerType === 'mouse') setShowFacebookQR(false)
+            }}
+          >
+            <span
+              className='cursor-pointer transform transition-transform duration-150 hover:scale-125'
+              onClick={(e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                setShowFacebookQR(v => !v)
+              }}
+            >
+              
+              <i className='fab fa-facebook dark:hover:text-indigo-400 hover:text-indigo-600' />
+            </span>
+            {showFacebookQR && (
+              <div className='absolute bottom-12 left-1/2 -translate-x-1/2 z-40'>
+                <div className='w-36 rounded-xl bg-white dark:bg-neutral-800 shadow-2xl ring-1 ring-black/5 flex flex-col items-center px-3 py-2'>
+                
+                  <img
+                    src='/images/facebook.JPG'
+                    alt='Facebook二维码'
+                    className='block w-28 h-28 object-contain'
+                    draggable={false}
+                  />
+                  <div className='mt-1 text-[11px] leading-none text-gray-600 dark:text-gray-300 whitespace-nowrap'>
+                    扫码加我 Facebook
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
 
 
 
