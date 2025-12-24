@@ -30,48 +30,7 @@ const SocialButton = () => {
 
 
 
-          <div
-            className='relative inline-flex'
-            onPointerEnter={(e) => {
-              if (e.pointerType === 'mouse') setShowXHSQR(true)
-            }}
-            onPointerLeave={(e) => {
-              if (e.pointerType === 'mouse') setShowXHSQR(false)
-            }}
-          >
-            <span
-              className='cursor-pointer transform transition-transform duration-150 hover:scale-125'
-              onClick={(e) => {
-                e.preventDefault()
-                e.stopPropagation()
-                setShowXHSQR(v => !v)
-              }}
-            >
-        
-              <img
-                src='https://cdn.jsdmirror.com/npm/simple-icons@latest/icons/xiaohongshu.svg'
-                alt='xiaohongshu'
-                className='inline-block hover:opacity-80 dark:invert'
-                style={{ width: '1.2em', height: '1.2em', verticalAlign: '-0.2em' }}
-              />
-            </span>
-            {showXHSQR && (
-              <div className='absolute bottom-12 left-1/2 -translate-x-1/2 z-40'>
-                <div className='w-36 rounded-xl bg-white dark:bg-neutral-800 shadow-2xl ring-1 ring-black/5 flex flex-col items-center px-3 py-2'>
-                
-                  <img
-                    src='/images/xiaohongshu.JPG'
-                    alt='小红书二维码'
-                    className='block w-28 h-28 object-contain'
-                    draggable={false}
-                  />
-                  <div className='mt-1 text-[11px] leading-none text-gray-600 dark:text-gray-300 whitespace-nowrap'>
-                    扫码关注小红书
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
+          
          
 
 
@@ -114,6 +73,61 @@ const SocialButton = () => {
           </div>
 
 
+
+
+
+
+<div
+            className='relative inline-flex'
+            onPointerEnter={(e) => {
+              if (e.pointerType === 'mouse') setShowXHSQR(true)
+            }}
+            onPointerLeave={(e) => {
+              if (e.pointerType === 'mouse') setShowXHSQR(false)
+            }}
+          >
+            <span
+              className='cursor-pointer transform transition-transform duration-150 hover:scale-125'
+              onClick={(e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                setShowXHSQR(v => !v)
+              }}
+            >
+        
+              <img
+                src='/images/xiaohongshutubiao.svg'
+                alt='xiaohongshu'
+                className='inline-block hover:opacity-80 dark:invert'
+                style={{ width: '1.2em', height: '1.2em', verticalAlign: '-0.2em' }}
+              />
+            </span>
+            {showXHSQR && (
+              <div className='absolute bottom-12 left-1/2 -translate-x-1/2 z-40'>
+                <div className='w-36 rounded-xl bg-white dark:bg-neutral-800 shadow-2xl ring-1 ring-black/5 flex flex-col items-center px-3 py-2'>
+                
+                  <img
+                    src='/images/xiaohongshu.JPG'
+                    alt='小红书二维码'
+                    className='block w-28 h-28 object-contain'
+                    draggable={false}
+                  />
+                  <div className='mt-1 text-[11px] leading-none text-gray-600 dark:text-gray-300 whitespace-nowrap'>
+                    扫码关注小红书
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+
+
+
+
+
+
+
+
+            
 
 
             
