@@ -74,9 +74,9 @@ const CONFIG = {
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://jiangnanxiaohe.com',
-  HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: '/images/gongzhonghao.JPG',
+  HEO_INFO_CARD_URL2: '/images/gongzhonghao.JPG',
+  HEO_INFO_CARD_ICON2: 'fab fa-weixin text-green-600',
+  HEO_INFO_CARD_URL3: '/images/douyin.JPG',
   HEO_INFO_CARD_TEXT3: '利他之心',
 
   // 用户技能图标
