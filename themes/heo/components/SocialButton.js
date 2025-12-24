@@ -19,7 +19,8 @@ const SocialButton = () => {
   const CONTACT_BILIBILI = siteConfig('CONTACT_BILIBILI')
   const CONTACT_YOUTUBE = siteConfig('CONTACT_YOUTUBE')
   const [showWechatQR, setShowWechatQR] = useState(false)
-
+  const [showDouyinQR, setShowDouyinQR] = useState(false) 
+  
   const emailIcon = useRef(null)
 
   return (
@@ -72,6 +73,56 @@ const SocialButton = () => {
               </div>
             )}
           </div>
+
+//{/* 👇👇👇 抖音代码开始 👇👇👇 */}
+          <div
+            className='relative inline-flex'
+            onPointerEnter={(e) => {
+              if (e.pointerType === 'mouse') setShowDouyinQR(true)
+            }}
+            onPointerLeave={(e) => {
+              if (e.pointerType === 'mouse') setShowDouyinQR(false)
+            }}
+          >
+            <span
+              className='cursor-pointer transform transition-transform duration-150 hover:scale-125'
+              onClick={(e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                setShowDouyinQR(v => !v)
+              }}
+            >
+              
+              <img
+                src='https://cdn.jsdmirror.com/npm/simple-icons@latest/icons/tiktok.svg'
+                alt='douyin'
+                className='inline-block hover:opacity-80 dark:invert' 
+                style={{ width: '1em', height: '1em', verticalAlign: '-0.125em' }}
+              />
+            </span>
+            {showDouyinQR && (
+              <div className='absolute bottom-12 left-1/2 -translate-x-1/2 z-40'>
+                <div className='w-36 rounded-xl bg-white dark:bg-neutral-800 shadow-2xl ring-1 ring-black/5 flex flex-col items-center px-3 py-2'>
+                 // {/* 👇 请确保你的 public/images/ 目录下有 douyin.jpg 这个二维码图片 */}
+                  <img
+                    src='/images/gongzhonghao.jpg'
+                    alt='抖音二维码'
+                    className='block w-28 h-28 object-contain'
+                    draggable={false}
+                  />
+                  <div className='mt-1 text-[11px] leading-none text-gray-600 dark:text-gray-300 whitespace-nowrap'>
+                    扫码关注抖音
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        
+
+
+
+
+
         {CONTACT_BILIBILI && (
           <a
             target='_blank'
